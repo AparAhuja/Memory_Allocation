@@ -1,17 +1,12 @@
-2
+1
 100
-7
-Allocate 20
-Allocate 50
-Allocate 20
-Allocate 5
-Free 20
-Free 0
-Free 70
-20
-5
+9
 Allocate 10
-Allocate 20
-Free 50
-Free 0
+Allocate 10
+Allocate 10
+Free 30
 Free 10
+Free 0
+Free 20
+Defragment 0
+Allocate 100
