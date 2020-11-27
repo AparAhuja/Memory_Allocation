@@ -1,27 +1,29 @@
-# Memory_Allocation
+## Memory_Allocation
 Application of Linked Lists, Binary Search Tree and Balanced AVL Trees in order to create a **Memory Allocation System**\
 Problem_Statement.pdf contains the details of the code and the format for all possible input queries.
 
-Using makefile
-make all
+## Using makefile
+```make all```
 
 To compile your .java files
 
-make clean
+```make clean```
 
 To remove the generated .class files
 
-Using run.sh
-run.sh {input_file} {output_file}
+## Using run.sh
+```run.sh {input_file} {output_file}```
 
-Example: run.sh test.in res.out
+Example:
+```run.sh test.in res.out```
 
-Both arguments are optional, inputfile is the file containing the test cases and output file is where you want the result to be written into. 
+Both arguments are optional, inputfile is the file containing the test cases and output file is where you want the result to be written into.
 In the case any argument is missing, console is used for input or output.
 
 A res_gold.out has been added which can be used to compare your results against the standard results.
 
-Format of test file
+## Format of test file
+
 number of test cases
 
 size
@@ -44,10 +46,13 @@ command2
 
 ...
 
+
 One sample test file test.in is attached alongside
 
-Allocate Size
+```Allocate Size```
 
-Free Address Defragment 0
+```Free Address```
+```Defragment 0```
 
 This is the format for commands required, Defragment will always be called with 0 as the argument.
+
